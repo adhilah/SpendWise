@@ -8,7 +8,11 @@ interface StatsRowProps {
 }
 
 const fmt = (n: number) =>
-  new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+  new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: 2,
+  }).format(n);
 
 export function StatsRow({ totalSpent, budget, count, onBudgetClick }: StatsRowProps) {
   const remaining = budget - totalSpent;

@@ -91,7 +91,7 @@ export function ExpenseForm({ onAdd, onCancel }: ExpenseFormProps) {
               pointerEvents: "none",
             }}
           >
-            $
+            ₹
           </span>
           <input
             className="glass-input"
