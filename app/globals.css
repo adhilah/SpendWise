@@ -240,7 +240,7 @@ select option {
   background: #0C0F2E;
   color: var(--text);
 }
-.material-symbols-outlined {
+.material-symbols-rounded {
   font-family: "Material Symbols Outlined" !important;
   font-variation-settings:
     'FILL' 0,

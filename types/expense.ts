@@ -1,3 +1,30 @@
+// export type Category =
+//   | "Food"
+//   | "Transport"
+//   | "Shopping"
+//   | "Health"
+//   | "Entertainment"
+//   | "Bills"
+//   | "Other";
+
+// export interface Expense {
+//   id:       string;
+//   title:    string;
+//   amount:   number;
+//   category: Category;
+//   date:     string;
+// }
+
+// export interface CategoryMeta {
+//   label: Category;
+//   icon:  string;
+//   color: string;
+//   glow:  string;
+//   bg:    string;
+// }
+
+
+
 export type Category =
   | "Food"
   | "Transport"
@@ -8,17 +35,17 @@ export type Category =
   | "Other";
 
 export interface Expense {
-  id:       string;
-  title:    string;
-  amount:   number;
+  id: string;
+  title: string;
+  amount: number;
   category: Category;
-  date:     string;
+  date: string;
 }
 
 export interface CategoryMeta {
   label: Category;
-  icon:  string;
+  icon: string;
   color: string;
-  glow:  string;
-  bg:    string;
+  glow: string;
+  bg: string;
 }
